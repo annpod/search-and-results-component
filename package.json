@@ -1,0 +1,34 @@
+{
+  "name": "@connectlabs/search-and-results-component",
+  "version": "1.0.0",
+  "description": "SearchComponent and ResultsComponent distributed as a private npm package",
+  "homepage": "https://bitbucket.org/connectib/search-and-results-component#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/connectib/search-and-results-component.git"
+  },
+  "license": "ISC",
+  "author": "SmartSpace",
+  "scripts": {
+    "prepare": "husky install",
+    "precommit": "lint-staged"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  },
+  "dependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.1"
+  }
+}

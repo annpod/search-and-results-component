@@ -29,7 +29,6 @@
     "tsc": "tsc",
     "tsc:dev": "tsc --watch --preserveWatchOutput",
     "clean": "shx rm -rf dist/",
-    "prepare": "husky install",
     "precommit": "lint-staged",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -84,7 +83,6 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^8.0.1",
     "jest": "^28.1.0",
     "jest-environment-jsdom": "^28.1.0",
     "lint-staged": "^12.4.1",
