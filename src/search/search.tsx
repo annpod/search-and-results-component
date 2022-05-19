@@ -5,7 +5,7 @@ export const Search: FC = () => {
     <>
 
 
-<div>Search</div>
+                        <div>Search</div>            
     </>
   )
 }
