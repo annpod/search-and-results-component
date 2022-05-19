@@ -56,8 +56,7 @@
   "lint-staged": {
     "*.{ts,tsx}": [
         "yarn prettier",
-        "yarn lint",
-        "git add"
+        "yarn lint"
     ]
   },
   "peerDependencies": {
