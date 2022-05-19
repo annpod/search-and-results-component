@@ -3,3 +3,5 @@ dist/
 lib/
 babel.config.js
 *lint*
+jest.setup.ts
+jest.config.js
