@@ -48,6 +48,11 @@
       "ie 11"
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*.{ts,tsx}": [
         "yarn prettier",
