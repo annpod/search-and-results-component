@@ -22,11 +22,15 @@
     "noFallthroughCasesInSwitch": true,
     "strict": true,
     "noUncheckedIndexedAccess": true,
-    "types": [
-      "jest",
-      "@testing-library/jest-dom"
-    ],
+    "types": ["jest", "@testing-library/jest-dom"]
   },
   "include": ["src"],
-  "exclude": ["**/node_modules", "**/build", "**/dist", "src/**/*.stories.tsx", "webpack.config.js", "jest.config.js"]
+  "exclude": [
+    "**/node_modules",
+    "**/build",
+    "**/dist",
+    "webpack.config.js",
+    "jest.config.js",
+    "jest.setup.js"
+  ]
 }

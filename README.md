@@ -8,7 +8,6 @@ Node - Refer to /.nvmrc
 Open a new terminal and run
 
 ```
-  cd /SRComponent
   npm install
   npm start
 ```
