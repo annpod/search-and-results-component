@@ -29,7 +29,6 @@
     "tsc": "tsc",
     "tsc:dev": "tsc --watch --preserveWatchOutput",
     "clean": "shx rm -rf dist/",
-    "prepare": "cd .. && husky install SRComponent/.husky",
     "precommit": "lint-staged",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
