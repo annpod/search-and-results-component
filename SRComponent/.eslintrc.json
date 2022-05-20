@@ -49,6 +49,5 @@
     "ecmaVersion": 12,
     "project": ["./tsconfig.json"]
   },
-  "ignorePatterns": [".eslintrc.js"],
   "plugins": ["@typescript-eslint", "jest"]
 }
