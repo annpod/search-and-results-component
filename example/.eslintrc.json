@@ -1,12 +1,10 @@
 {
   "env": {
-    "browser": true,
-    "jest": true
+    "browser": true
   },
   "extends": [
     "react-app",
     "eslint:recommended",
-    "plugin:storybook/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:prettier/recommended"
@@ -20,17 +18,13 @@
     "@typescript-eslint/no-inferrable-types": "off",
     "@typescript-eslint/no-unused-vars": ["off"],
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "error",
-    "jest/no-disabled-tests": "warn",
-    "jest/no-focused-tests": "error",
-    "jest/no-identical-title": "error",
-    "jest/prefer-to-have-length": "warn",
-    "jest/valid-expect": "error"
+    "react-hooks/exhaustive-deps": "error"
   },
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 12,
     "project": ["./tsconfig.json"]
   },
-  "plugins": ["@typescript-eslint", "jest"]
+  "plugins": ["@typescript-eslint"]
 }
+
