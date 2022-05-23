@@ -11,7 +11,7 @@
   ],
   "settings": {
     "react": {
-      "version": "^18.1.0"
+      "version": "^17.0.2"
     }
   },
   "rules": {
